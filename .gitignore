@@ -1,0 +1,16 @@
+# Archivos de Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+
+# Archivo de variables sensibles
+*.tfvars
+*.tfvars.json
+
+# Lock file
+.terraform.lock.hcl
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
